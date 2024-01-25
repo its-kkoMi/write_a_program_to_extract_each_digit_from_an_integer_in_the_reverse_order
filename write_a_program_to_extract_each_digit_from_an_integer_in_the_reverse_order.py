@@ -8,3 +8,8 @@ number = int(input("Enter a number: "))
 
 # Use while loop to reverse number
 # Print output
+
+while number > 0:
+    digit = number % 10
+    number = number // 10
+    print(digit, end=" ")
