@@ -3,5 +3,8 @@
 # For example, If the given int is 7536, the output shall be “6 3 5 7“, with a space separating the digits.
 
 # Request a number from user
+
+number = int(input("Enter a number: "))
+
 # Use while loop to reverse number
 # Print output
